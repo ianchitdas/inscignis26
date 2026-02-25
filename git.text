@@ -1,0 +1,9 @@
+git remote add origin https://github.com/ianchitdas/inscignis26.git
+git branch -M main
+git add .
+git commit -m "Initial commit for hosting"
+git push -u origin main
+
+
+npx serve -l 8080
+
